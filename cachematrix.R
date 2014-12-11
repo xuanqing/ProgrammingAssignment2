@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+# TODO: how to use '<<-'
 
 makeCacheMatrix <- function(x = matrix()) {
         s <- NULL
