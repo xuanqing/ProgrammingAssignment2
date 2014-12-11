@@ -16,7 +16,7 @@ makeVector <- function(x = numeric()) {
              getmean = getmean)
 }
 
-## Write a short comment describing this function
+## if mean is null, calc it; if mean is cached, get it
 cachemean <- function(x, ...) {
         m <- x$getmean()
         if(!is.null(m)) {
